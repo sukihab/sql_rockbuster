@@ -25,3 +25,17 @@ SELECT
   MIN(rental_duration) AS min_rental_duration, 
   MAX(rental_duration) AS max_rental_duration
 FROM rental_info_cte
+
+SELECT country, 
+  COUNT(DISTINCT customer_id) AS customer_count, 
+  SUM(amount_paid)AS revenue
+FROM rental_info_cte
+GROUP BY country
+ORDER BY customer_count DESC
+
+SELECT country, customer_id, 
+  SUM(amount_paid)AS revenue 
+FROM rental_info_cte 
+WHERE country IN ('India', 'United States', 'China') 
+GROUP BY customer_id, country 
+ORDER BY revenue DESC 
