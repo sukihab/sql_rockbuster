@@ -24,7 +24,7 @@ The dataset is a relational database made-up of 15 tables:
 14. city
 15. country
 
-Refer to the Data Dictionary for details. 
+Refer to the Data-Dictionary for details. 
 
 ### Tools
 
