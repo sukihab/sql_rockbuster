@@ -33,3 +33,8 @@ To execute this project I have used the following tools:
 - Tableau
 - MS-Excel
 - MS-Power Point
+
+### Links to Visualizations in Tableau
+- [Revenue by Genre](https://public.tableau.com/app/profile/suki7003/viz/Ach_3_GenreRevenue/Sheet1?publish=yes)
+- [Correlation: Rental-duration & Revenue by genre](https://public.tableau.com/app/profile/suki7003/viz/Ach_3_CorrelationRent_dur_Rev/Sheet1?publish=yes)
+- [Geographic distribution of customers & revenue](https://public.tableau.com/app/profile/suki7003/viz/Ach_3_Geographic_distributions/Sheet1?publish=yes)
